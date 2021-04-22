@@ -198,7 +198,7 @@ async def g_yt_playlist(client, message):
         if user_command == GPYTDL_COMMAND.lower():
             is_cloud = True
     else:
-        await message.reply_text("🤷How Can I Leech Without Any Source Link🚶, quote=True)
+        await message.reply_text("🤷How Can I Leech Without Any Source Link🚶", quote=True)
         return
     if "youtube.com/playlist" in url:
         i_m_sefg = await message.reply_text(
